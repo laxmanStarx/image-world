@@ -34,6 +34,11 @@ export const navLinks = [
       route: "/profile",
       icon: "/assets/icons/profile.svg",
     },
+    // {
+    //   label: " Content Analysis",
+    //   route: "/transformations/add/analysis",
+    //   icon: "/assets/icons/bag.svg",
+    // },
     {
       label: "Buy Credits",
       route: "/credits",
@@ -127,6 +132,18 @@ export const navLinks = [
       config: { restore: true },
       icon: "image.svg",
     },
+
+
+    // coco_v1: {
+    //   type: "coco_v1",
+    //   title: "Content Analysis",
+    //   subTitle: "Analysing the content",
+    //   config: { coco_v1: true },
+    //   icon: "image.svg",
+    // },
+
+
+
     removeBackground: {
       type: "removeBackground",
       title: "Background Remove",

@@ -26,7 +26,7 @@ export const connectToDatabase = async ()=>{
     throw new Error('MONGODB_URL is not defined');
 
 
-    cached.promise = cached.promise || mongoose.connect(MONGODB_URL,{dbName: 'sharkstarX ',bufferCommands:false})
+    cached.promise = cached.promise || mongoose.connect(MONGODB_URL,{dbName: 'imageCorn',bufferCommands:false})
 
     cached.conn = await cached.promise;
 
@@ -39,3 +39,4 @@ export const connectToDatabase = async ()=>{
 
 
 }
+// sharkstarX 

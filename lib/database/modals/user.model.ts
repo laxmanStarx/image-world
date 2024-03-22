@@ -4,12 +4,12 @@ import {Schema,model,models} from "mongoose";
 const UserSchema = new Schema({
     clerkId:{
         type:String,
-        required:true,
-        unique:true,
+        required: true,
+        unique: true,
     },
     email:{
         type: String,
-        required:true,
+        required: true,
         unique:true,
     },
     username:{
@@ -18,7 +18,8 @@ const UserSchema = new Schema({
         unique:true,
     },
     photo:{
-        type:String,
+        type: String,
+        required: true,
 
     },
     firstName:{
