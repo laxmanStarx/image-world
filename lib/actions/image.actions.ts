@@ -188,7 +188,7 @@ export async function getImageById(imageId: string) {
     }
   }
 
-  // GET IMAGES BY USER
+//   // GET IMAGES BY USER
 export async function getUserImages({
   limit = 9,
   page = 1,
